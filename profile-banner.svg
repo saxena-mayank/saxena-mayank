@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Mayank Saxena — AI Solution Architect</title>
+  <desc id="desc">A dark navy technology banner with a connected AI architecture motif.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081827"/>
+      <stop offset="0.58" stop-color="#102f49"/>
+      <stop offset="1" stop-color="#123d43"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#63d8ff"/>
+      <stop offset="1" stop-color="#70f0c2"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9bd9ef" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="330" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+  <circle cx="1060" cy="64" r="150" fill="#39c6c2" opacity=".07"/>
+  <circle cx="1140" cy="270" r="190" fill="#62b6ff" opacity=".08"/>
+  <g stroke="url(#glow)" stroke-width="2" stroke-opacity=".72" fill="none">
+    <path d="M835 105L925 65L1010 110L1090 66"/>
+    <path d="M835 105L870 195L970 215L1010 110"/>
+    <path d="M1010 110L1100 175L970 215L1055 280"/>
+    <path d="M870 195L810 265L970 215"/>
+    <path d="M1090 66L1140 120L1100 175"/>
+  </g>
+  <g fill="#0b2334" stroke="url(#glow)" stroke-width="3" filter="url(#softGlow)">
+    <circle cx="835" cy="105" r="10"/><circle cx="925" cy="65" r="8"/>
+    <circle cx="1010" cy="110" r="14"/><circle cx="1090" cy="66" r="9"/>
+    <circle cx="870" cy="195" r="12"/><circle cx="970" cy="215" r="11"/>
+    <circle cx="1100" cy="175" r="10"/><circle cx="1055" cy="280" r="8"/>
+    <circle cx="810" cy="265" r="8"/><circle cx="1140" cy="120" r="7"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#f3f8ff">
+    <text x="70" y="100" font-size="19" font-weight="700" letter-spacing="4" fill="#82e5d0">ENTERPRISE AI • ARCHITECTURE • ENGINEERING</text>
+    <text x="66" y="166" font-size="53" font-weight="750" letter-spacing="-1.4">Mayank Saxena</text>
+    <text x="70" y="211" font-size="26" font-weight="600" fill="#b9e9ff">AI Solution Architect</text>
+    <text x="70" y="253" font-size="18" fill="#d3e4f0">GenAI platforms · Agentic systems · Responsible AI</text>
+    <rect x="70" y="278" width="68" height="4" rx="2" fill="url(#glow)"/>
+    <rect x="147" y="278" width="34" height="4" rx="2" fill="#7da9c4" opacity=".65"/>
+  </g>
+</svg>
